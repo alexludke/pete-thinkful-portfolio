@@ -1,0 +1,144 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  padding: 10px 10px 10px 20px;
+}
+
+nav a {
+  padding-left: 20px;
+  margin-left: 10px
+}
+
+/* Images */
+img {
+  width: 180%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  display: flex;
+}
+
+/* About containers */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.container .content {
+  flex-grow: 1;
+}
+
+.container h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+.container p {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+.container ul {
+  text-align: left;
+  font-size: 14px;
+}
+
+h2 {
+  padding: 15px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Portfolio containers */
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  flex: .3;
+}
+
+section h3 {
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
